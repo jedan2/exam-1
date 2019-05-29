@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+ul{}
+ul li{
+    list-style: none;
+}
+p{
+    font-size: 16px;
+    color: #737373c9;
+    line-height: 24px;
+    text-align: center;
+}
+ 
+h2{}
+/*******************/
+/* Header section */
+/*******************/
+header{
+    padding: 40px 0;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.icon{
+    width: 70%;
+    float: left;
+    position: relative;
+}
+.icon::after{
+	content: "";
+	background: url(../img/hand.png);
+	position: absolute;
+	display: block;
+	width: 3%;
+	height: 100%;
+	background-repeat: no-repeat;
+	top: 22px;
+	left: 552px;
+}
+.icon ul{
+    text-align: right;
+}
+.icon ul li{
+    display: inline-block;
+}
+.icon ul li a{}
+span{
+	width: 1100px;
+	height: 1px;
+	background: #737373;
+	display: -webkit-inline-box;
+}
+/* menu bar */
+nav{
+    padding-top: 20px;
+}
+nav ul{}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #737373;
+    font-size: 18px;
+    padding-right: 20px;
+}
+nav:first-child{
+	padding-left: 0;
+}
+
+nav ul  li a:hover{color: #00bbf5;}
+
+.active{
+	color:#00bbf5; 
+
+}
+
+/*******************/
+/* Banner section */
+/*******************/
+.banner{
+    background: url(../img/banner.jpg);
+    min-height: 500px;
+}
+.banner-imge{}
+.banner-imge img{
+    margin: auto;
+    transform: translateY(90px);
+}
+
+
+/*******************/
+/* About section */
+/******** ***********/
+.about{
+    padding: 140px 0;
+}
+.about p{
+    max-width: 850px;
+    margin: auto;
+}
+.btn{
+    text-align: center;
+    padding-top: 25px;
+}
+.btn a{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #2dcc70;
+    color: #fff;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 1px;
+    transition: all.4s;
+}
+.btn a:hover{
+	background: #00bbf5;
+}
+/*******************/
+/* Video section */
+/******** ***********/
+.video{
+    background: #f2f2f2;
+    overflow: hidden;
+}
+.left-side{
+    width: 45%;
+    float: left;
+    padding: 30px 0;
+}
+.left-side img{}
+.right-side {
+    width: 55%;
+    float: left;
+}
+.right-side p {
+    text-align: justify;
+    font-size: 15px;
+}
+.right-side h2{font-size: 27px;color: #737373;padding-bottom: 23px;text-transform: uppercase;margin-top: 10px;}
+/*******************/
+/* About-you-radey section */
+/******** ***********/
+.about-you-reday{
+    background: #737373;
+    overflow: hidden;
+    min-height: 150px;
+}
+.about-you-reday h2{
+    float: left;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    color: #fff;
+}
+ .btn-2{
+    float: right;
+}
+.btn-2 a{
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #2dcc70;
+    color: #fff;
+    padding: 15px 50px;
+    display: inline-block;
+    border-radius: 1px;
+    transition: all 0.4s;
+    margin-top: 52px;
+    margin-right: 60px;
+}
+.btn-2 a:hover{
+	background: #00bbf5;
+}
+/*******************/
+/* footer section */
+/*******************/
+footer{
+    padding: 40px 0;
+}
+p{
+    font-size: 14px;
+    color: #73737385;
+    line-height: 1.6em;
+    text-align: center;
+}
+.copy{
+    float: left;
+}
+.menu{
+    float: right;
+    position: relative;
+} 
+.menu li::after{
+    position: absolute;
+    content: '/';
+    padding-left: 7px;
+
+}
+.menu li:last-child:after{
+    content: '';
+} 
+.menu li{
+    display: inline-block;
+    text-transform: capitalize;
+    color: #504b4bcf;
+    font-weight: bold;
+    padding-right: 15px;
+} 
